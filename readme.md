@@ -6,7 +6,7 @@ this is an simple implementation, because of this, remember this is made mainly 
 
 but if you want to use this implementation, see the tutorial:
 
-* go to packages list, choose the last release, download in an new directory, and in the terminal:
+* go to packages/vrsion/dist , choose the last release, download in an new directory, and in the terminal:
 
 ```
 pip install SimpleRsa-Version.tar.gz
