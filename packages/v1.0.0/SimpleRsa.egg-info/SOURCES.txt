@@ -1,9 +1,0 @@
-setup.py
-SimpleRsa.egg-info/PKG-INFO
-SimpleRsa.egg-info/SOURCES.txt
-SimpleRsa.egg-info/dependency_links.txt
-SimpleRsa.egg-info/requires.txt
-SimpleRsa.egg-info/top_level.txt
-simple_rsa/__init__.py
-simple_rsa/pembuilder.py
-simple_rsa/rsa.py
