@@ -27,8 +27,10 @@ encrypted = rsa.encrypt(message)
 
   * .encrypt (entry)
     
-      his respective abstraction is Encrypt class, that receive n and e
-      on init but you can put your n and e (in int type) with:
+      his respective abstraction is the Encrypt class, that receive n and e
+      on init but you can put your own n and e (in int type) with:
       ```
       Rsa.Encryptor.n = #your number
       ```
+
+      the method encrypt works doing `(m^e) mod n` or `(m**e) % n` in python
