@@ -33,4 +33,14 @@ encrypted = rsa.encrypt(message)
       Rsa.Encryptor.n = #your number
       ```
 
-      the method encrypt works doing `(m^e) mod n` or `(m**e) % n` in python
+      the method encrypt works doing `(m^e) mod n` or `(m**e) % n` in python but using pow()
+      
+   * .decrypt (entry)
+    
+      his respective abstraction is the Decrypt class, that receive n and d
+      on init but you can put your own n and d (in int type) with:
+      ```
+      Rsa.Decrypter.d = #your number
+      ```
+
+      the method encrypt works doing `(m^d) mod n` or `(m**d) % n` in python but using pow()
