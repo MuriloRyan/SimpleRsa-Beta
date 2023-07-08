@@ -1,4 +1,4 @@
-from pembuilder import PemFormatPrivateKey, PemFormatPublicKey
+from SimpleRsa.ext.pembuilder.pembuilder import PemFormatPrivateKey, PemFormatPublicKey
 from Crypto.Util.number import getPrime, inverse
 import base64
 
