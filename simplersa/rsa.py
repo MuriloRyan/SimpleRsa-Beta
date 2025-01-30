@@ -1,4 +1,4 @@
-from SimpleRsa.ext.pembuilder.pembuilder import PemFormatPrivateKey, PemFormatPublicKey
+from simplersa.ext.pembuilder.pembuilder import PemFormatPrivateKey, PemFormatPublicKey
 from Crypto.Util.number import getPrime, inverse
 import base64
 
@@ -58,3 +58,5 @@ class Rsa:
     def private_key_write(self):
         return PemFormatPrivateKey(self.n,self.d).buildPrivateKey()
     
+    def write_keys(self):
+        return self.public_key_write(),self.private_key_write()

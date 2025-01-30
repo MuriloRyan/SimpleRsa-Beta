@@ -8,7 +8,7 @@ class PemFormatPublicKey:
     def __init__(self,n,e):
         self.n = n
         self.e = e
-
+            
     def buildPublicKey(self):
         public_key_pem = f"-----BEGIN PUBLIC KEY-----\n"
         encoded_n = base64.b64encode(self.n.to_bytes((self.n.bit_length() + 7) // 8, 'big')).decode()
